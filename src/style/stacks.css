@@ -1,0 +1,62 @@
+.stacks {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 85vw;
+}
+
+.stacks .info {
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 50px;
+  height: 70vh;
+  width: 25vw;
+}
+
+.stacks h1 {
+  font-size: 2rem;
+  color: #23BE53;
+  margin: 0;
+}
+
+.stacks span {
+  color: #23BE53;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.stacks h2 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+.stacks button {
+  background-color: #23BE53;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0.5rem;
+}
+.stacks button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.image {
+  background-image: url('../assets/vector.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 45%;
+}
+
+.image-top {
+  margin-top: 20%;
+  margin-left: 25%;
+}
