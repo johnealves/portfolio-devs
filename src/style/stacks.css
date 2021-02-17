@@ -11,7 +11,7 @@
   flex-direction: column; */
   margin-top: 50px;
   height: 70vh;
-  width: 25vw;
+  width: 40%;
 }
 
 .stacks h1 {
@@ -49,14 +49,8 @@
 }
 
 .image {
-  background-image: url('../assets/vector.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 45%;
-}
-
-.image-top {
-  margin-top: 20%;
-  margin-left: 25%;
 }

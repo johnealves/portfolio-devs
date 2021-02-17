@@ -1,6 +1,6 @@
 import React, {  Component} from 'react';
 import "../style/stacks.css"
-import top from '../assets/image-top.png'
+import principal from '../assets/principal.png'
 
 class Stacks extends Component {
   render() {
@@ -16,7 +16,7 @@ class Stacks extends Component {
             </div>
         </section>
         <section className="image">
-            <img className="image-top" src={ top } alt={ 'top' } />
+            <img className="image-top" src={ principal } alt={ 'top' } />
         </section>
       </section>
     )
