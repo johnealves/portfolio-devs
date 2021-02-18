@@ -14,12 +14,12 @@
 
 .home h1 {
   font-size: 2rem;
-  color: #23BE53;
+  color: #236bbe;
   margin: 0;
 }
 
 .home span {
-  color: #23BE53;
+  color: #236bbe;
   font-size: 16px;
   font-weight: 900;
 }
@@ -32,16 +32,17 @@
 }
 
 .home button {
-  background-color: #23BE53;
+  background-color:#236bbe;
   border: none;
-  border-radius: 20px;
+  border-radius: 7px;
   color: aliceblue;
   font-size: 1.2rem;
   font-weight: 900;
-  padding: 10px;
+  padding: 7px;
   margin: 0.5rem;
 }
 .home button:hover {
+  background-color: blueviolet;
   transform: scale(1.1);
   transition: 0.3s;
 }

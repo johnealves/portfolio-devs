@@ -15,8 +15,10 @@ class SingleProject extends Component {
         <a href={ link } target='_blanck'>
           <img src={ image } alt="shopping-cart-foto"/>
         </a>
-        <h2>{ name }</h2>
-        <p>{ info }</p>
+        <div className='description'>
+          <h2>{ name }</h2>
+          <p>{ info }</p>
+        </div>
         <h3><FaGithub size='20px' color='black'/></h3>
       </li>
     );
