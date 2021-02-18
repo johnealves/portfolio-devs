@@ -1,0 +1,58 @@
+.home {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 100vh;
+}
+
+.home .info {
+  margin-top: 50px;
+  height: 70vh;
+  width: 40%;
+}
+
+.home h1 {
+  font-size: 2rem;
+  color: #23BE53;
+  margin: 0;
+}
+
+.home span {
+  color: #23BE53;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.home h2 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+.home button {
+  background-color: #23BE53;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0.5rem;
+}
+.home button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+.image img {
+  max-width: 100%;
+}
